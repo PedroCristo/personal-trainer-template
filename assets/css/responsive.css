@@ -1,0 +1,82 @@
+/* Hero */
+
+@media only screen and (min-width: 1367px) {
+    .hero .col-right {
+        background-position: 820px 10px;
+    }
+}
+
+@media only screen and (max-width: 1168px) {
+    .hero .col-right {
+        background-position: 420px 10px;
+    }
+
+    .title {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .links {
+        display: block !important;
+        background-color: var(--dark-grey);
+        height: 100%;
+        width: 350px;
+        position: fixed;
+        top: 0;
+        right: -360px;
+        z-index: 1000;
+        padding-top: 80px;
+    }
+    
+    .links.active {
+        right: 0 !important;
+
+    }
+
+    .fa-times,
+    .fa-bars {
+        display: block;
+
+    }
+
+    .social {
+        display: inline-flex !important;
+    }
+
+}
+
+@media only screen and (max-width: 965px) {
+    .hero .col-right {
+        background-position: 300px 10px;
+    }
+
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+        .rating-box p {
+        font-size: 1.2rem;
+        padding-top: 0;
+        bottom: 50px;
+        width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .hero .col-right {
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .effects .text-left,
+    .effects .text-right {
+     text-align: center;
+      
+    }
+}
+
