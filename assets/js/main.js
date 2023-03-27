@@ -89,3 +89,14 @@ window.onscroll = () => {
     }
   });
 };
+
+// Add border to the Accordim body
+$(document).ready(function () {
+  const addBorder = $(".accordion-button");
+  const borderItem =  $(".accordion-body");
+  addBorder.click(function () {
+    borderItem.toggleClass("active");
+  });
+});
+
+

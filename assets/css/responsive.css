@@ -6,6 +6,13 @@
     }
 }
 
+@media only screen and (max-width: 1199px) {
+    .plans-section .card-3 {
+      margin-top: 25px !important;
+
+    }
+}
+
 @media only screen and (max-width: 1168px) {
     .hero .col-right {
         background-position: 420px 10px;
@@ -27,6 +34,14 @@
         right: -360px;
         z-index: 1000;
         padding-top: 80px;
+    }
+
+    .overlay.active {
+        display: block;
+    }
+    
+    section.active {
+        margin-left: -150px;
     }
     
     .links.active {
@@ -76,7 +91,36 @@
     .effects .text-left,
     .effects .text-right {
      text-align: center;
-      
+    }
+    
+    .clients-section .logo {
+        width: 65% !important;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 35px;
+    }
+
+    .plans-section .card-2,
+    .plans-section .card-1 {
+        margin-top: 25px !important;
+  
+    }
+}
+
+@media only screen and (max-width:562px) {
+    .cards-section .about-cards .about-card {
+        width: 95%;
+    }
+
+    .opinion .container .opinion-card {
+        width: 90%;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .plans-section .plans-card {
+        width: 95%;
+
     }
 }
 
