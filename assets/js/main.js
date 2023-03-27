@@ -77,7 +77,7 @@ window.onscroll = () => {
     const sectionTop = section.offsetTop;
     if (pageYOffset >= sectionTop - 60) {
       current = section.getAttribute("id");
-    }
+    } 
   });
   // For each list item in the navigation menu, update its active state
   navLi.forEach((li) => {
