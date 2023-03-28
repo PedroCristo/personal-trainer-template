@@ -1,5 +1,6 @@
-/* Hero */
-
+/*##############################
+###        RESPONSIVE        ###
+###############################*/
 @media only screen and (min-width: 1367px) {
     .hero .col-right {
         background-position: 820px 10px;
@@ -8,7 +9,7 @@
 
 @media only screen and (max-width: 1199px) {
     .plans-section .card-3 {
-      margin-top: 25px !important;
+        margin-top: 25px !important;
 
     }
 }
@@ -39,11 +40,11 @@
     .overlay.active {
         display: block;
     }
-    
+
     section.active {
         margin-left: -150px;
     }
-    
+
     .links.active {
         right: 0 !important;
 
@@ -72,13 +73,13 @@
 }
 
 @media only screen and (max-width: 991px) {
-        .rating-box p {
+    .rating-box p {
         font-size: 1.2rem;
         padding-top: 0;
         bottom: 50px;
         width: 250px;
     }
-    
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -88,11 +89,29 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .goals-content .row .col-md-4 {
+        text-align: center;
+    }
+
+    .goals-content .row .col-md-4 .line {
+        position: relative;
+        margin: 0 auto;
+    }
+
     .effects .text-left,
     .effects .text-right {
-     text-align: center;
+        text-align: center;
     }
-    
+
+    .about .rating-box {
+        margin-top: 20px;
+    }
+
+    .cards-section .about-cards .about-card {
+        width: 250px;
+    }
+
     .clients-section .logo {
         width: 65% !important;
         margin: 0 auto;
@@ -100,10 +119,46 @@
         margin-bottom: 35px;
     }
 
+    .clients-section .clients-card h3 {
+        text-align: center;
+    }
+
     .plans-section .card-2,
     .plans-section .card-1 {
-        margin-top: 25px !important;
-  
+        margin-top: 55px !important;
+    }
+
+    .contact {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 594px) {
+    .logo {
+        width: 160px;
+        padding-left: 25px;
+    }
+
+    .title {
+        font-size: 3rem  !important;
+    }
+
+    .about .container {
+        text-align: center;
+    }
+
+    .about .about-container p {
+        margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (max-width: 575px) {
+    .contact hr {
+        width: 80% !important;
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
 }
 
@@ -117,10 +172,9 @@
         margin-top: 25px;
         padding-bottom: 25px;
     }
-    
+
     .plans-section .plans-card {
         width: 95%;
 
     }
 }
-
