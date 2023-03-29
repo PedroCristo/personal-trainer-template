@@ -197,6 +197,12 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .hero {
+        padding: 0 10px;
+    }
+}
+
 @media only screen and (max-width: 422px) {
     .links {
         width: 100%;
@@ -206,11 +212,8 @@
     .logo-mobile {
         display: block;
         position: absolute;
-        bottom: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
+        top: 25px;
+        left: 10px;
     }
 
     .title {

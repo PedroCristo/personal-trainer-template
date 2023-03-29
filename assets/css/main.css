@@ -30,10 +30,6 @@ body {
     position: relative;
 }
 
-section {
-    transition: all ease-in-out .6s;
-}
-
 .overlay {
     position: absolute;
     top: 0;
