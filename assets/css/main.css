@@ -30,6 +30,10 @@ body {
     position: relative;
 }
 
+section {
+    transition: all ease-in-out .6s;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -92,6 +96,10 @@ hr {
 
 .logo {
     width: 200px;
+}
+
+.logo-mobile {
+    display: none;
 }
 
 .logo.active {
@@ -239,6 +247,9 @@ nav .menu .links li.active a {
     margin: 0 auto;
     padding-top: 15px;
     font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /*##############################
@@ -337,11 +348,6 @@ nav .menu .links li.active a {
 
 .about .about-social span:hover a {
     color: var(--dark-grey);
-}
-
-.about .rating-box {
-    margin-top: -50px;
-
 }
 
 .about .rating-box {
@@ -599,7 +605,7 @@ nav .menu .links li.active a {
     height: 700px;
 }
 
-.faq-col-right .overlay{
+.faq-col-right .overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -611,7 +617,7 @@ nav .menu .links li.active a {
 }
 
 .faq-section .title {
-   margin-top: 50px;
+    margin-top: 50px;
 }
 
 /* Accordion */
@@ -627,20 +633,20 @@ nav .menu .links li.active a {
 
 .accordion .accordion-item,
 .accordion button {
-   background-color: #272725 !important;
+    background-color: #272725 !important;
 }
 
-.accordion .accordion-item{
+.accordion .accordion-item {
     border-left: 1px solid #272725;
 }
 
 .accordion .accordion-body.active {
-   border-left: 1px solid var(--interactive-color);
+    border-left: 1px solid var(--interactive-color);
 }
 
 .accordion button,
 .accordion .accordion-body {
-   color: var(--white-color);
+    color: var(--white-color);
 }
 
 .accordion button span {
@@ -655,8 +661,8 @@ nav .menu .links li.active a {
 
 .accordion-button::after,
 .collapsed {
-   background-color: var(--interactive-color);
-   margin-right: -5px;
+    background-color: var(--interactive-color);
+    margin-right: -5px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -665,13 +671,14 @@ nav .menu .links li.active a {
 
 .collapse {
     visibility: hidden;
-  }
-  .collapse.show {
+}
+
+.collapse.show {
     visibility: visible;
     display: block;
-  }
+}
 
-  .collapsing {
+.collapsing {
     position: relative;
     height: 0;
     overflow: hidden;
@@ -681,14 +688,14 @@ nav .menu .links li.active a {
     transition-duration: 0.35s;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
-  }
+}
 
-  .collapsing.width {
+.collapsing.width {
     -webkit-transition-property: width, visibility;
     transition-property: width, visibility;
     width: 0;
     height: auto;
-  }
+}
 
 /*##############################
 ###  CONTACT & FOOTER SECTION ##
@@ -713,16 +720,16 @@ nav .menu .links li.active a {
 }
 
 .contact form input,
-.contact form textarea{
-   background-color: var(--interactive-color);
-   border: transparent;
-   border-bottom: 1px solid var(--white-color);
-   padding: 10px;
-   width: 320px;
+.contact form textarea {
+    background-color: var(--interactive-color);
+    border: transparent;
+    border-bottom: 1px solid var(--white-color);
+    padding: 10px;
+    width: 320px;
 }
 
 .contact form input[type=checkbox] {
-   width: 5% !important;
+    width: 5% !important;
 }
 
 .contact form input:focus,
@@ -730,13 +737,14 @@ nav .menu .links li.active a {
     background-color: var(--white-color);
     outline: none;
 }
+
 ::placeholder {
-      color: var(--white-color)
+    color: var(--white-color)
 }
 
 input:focus::placeholder,
 textarea:focus::placeholder {
-      color: var(--dark-grey)
+    color: var(--dark-grey)
 }
 
 .contact form .checkbox-menssage {
@@ -751,7 +759,7 @@ textarea:focus::placeholder {
 .contact footer .social {
     display: flex !important;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .contact footer .social li {
@@ -759,9 +767,9 @@ textarea:focus::placeholder {
 }
 
 .contact footer .social .fab {
-   font-size: 1rem;
+    font-size: 1rem;
 }
 
 .contact footer .social .fab:hover {
-   color: var(--dark-grey);
+    color: var(--dark-grey);
 }
