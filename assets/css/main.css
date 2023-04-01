@@ -199,6 +199,10 @@ nav .menu .links li.active a {
     font-size: 0.8rem !important;
 }
 
+.social .fab {
+    font-size: 1.1rem !important;
+}
+
 /*##############################
 ###       HERO SECTION       ###
 ###############################*/
