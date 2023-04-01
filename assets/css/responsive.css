@@ -201,6 +201,15 @@
     .hero {
         padding: 0 10px;
     }
+
+    .effects {
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    .effects img{
+      padding: 0;
+    }
 }
 
 @media only screen and (max-width: 422px) {
