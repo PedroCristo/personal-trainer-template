@@ -774,3 +774,8 @@ textarea:focus::placeholder {
 .contact footer .social .fab:hover {
     color: var(--dark-grey);
 }
+
+
+.thanks-page .hero-bottom p {
+  font-size: 2rem;
+}
